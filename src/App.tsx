@@ -1,13 +1,12 @@
 import React from "react";
+// import { ParentComponent } from "./Standard"; // バケツリレー
+// import { ParentComponent } from "./CreateContext"; // createContext
+import { ParentComponent } from "./CreateContext_hook"; // createContext + useContext
 
 class App extends React.Component {
   render() {
-    return <h1>HELLO REACT + TYPESCRIPT WORLD</h1>;
+    return <ParentComponent />;
   }
 }
-
-//const App = () => {
-//  return <h1>HELLO REACT + TYPESCRIPT WORLD</h1>
-//};
 
 export default App;
